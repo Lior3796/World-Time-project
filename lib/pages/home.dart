@@ -42,9 +42,9 @@ class _HomeState extends State<Home> {
                   style: TextStyle(
                       fontSize: 29.0,
                       letterSpacing: 2.0,
-                      color: !data['isDaytime']
-                          ? Colors.white70
-                          : Colors.grey[900]),
+                      color: data['isDaytime']
+                          ? Colors.grey[900]
+                          : Colors.white70),
                 ),
                 SizedBox(
                   height: 20.0,
@@ -54,9 +54,9 @@ class _HomeState extends State<Home> {
                   style: TextStyle(
                       fontSize: 29.0,
                       letterSpacing: 2.0,
-                      color: !data['isDaytime']
-                          ? Colors.white70
-                          : Colors.grey[900]),
+                      color: data['isDaytime']
+                          ? Colors.grey[900]
+                          : Colors.white70),
                 ),
                 SizedBox(
                   height: 20.0,
